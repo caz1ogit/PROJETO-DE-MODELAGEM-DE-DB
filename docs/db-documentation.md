@@ -1,13 +1,19 @@
-**DOCUMENTAÇÃO DB PARA FILA DE ATENDIMENTOS - V1.0**
+**DOCUMENTAÇÃO DB PARA FILA DE ATENDIMENTOS - V1.02**
 
 **TABELA CLIENTE**
 * **ID**
 * **NOME**
+* **CPF**
+* **EMAIL**
+* **TELEFONE**
 
 **TABELA ATENDENTE**
 * **ID**
 * **NOME**
 * **SETOR**
+* **CPF**
+* **MATRICULA**
+* **TELEFONE**
 
 **TABELA PRIORIDADE**
 * **ID:** 1 - Pouco urgente
