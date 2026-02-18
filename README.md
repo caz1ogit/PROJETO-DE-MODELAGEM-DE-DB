@@ -1,10 +1,10 @@
-**App-for-a-company-to-record-customer-service-interactions - V1.0**
+**App-for-a-company-to-record-customer-service-interactions - V1.01**
 A college project aimed at creating a relational database using PostgreSQL.  The topic chosen by me and my friends was: Application for a company to record customer service (queue management, registration of attendants and customers served).
 Those who will use this project are people who work daily in customer service, from local vendors with mini-markets to banks.
 
 
 
-**Aplicativo para empresa de registro de atendimento - V1.01**
+**Aplicativo para empresa de registro de atendimento - V1.02**
 Um projeto da faculdade, que visa criar um banco de dados relacional utilizando POSTGRESQL.
 O tema escolhido por mim e pelos meus amigos foi: 
 Aplicativo para empresa de registro de atendimento (controle de filas, registro de atendentes e pessoas atendidas).
@@ -26,6 +26,9 @@ erDiagram
         int id PK
         string nome
         string setor
+        string cpf
+        string matricula
+        string telefone
     }
 
     PRIORIDADE {
