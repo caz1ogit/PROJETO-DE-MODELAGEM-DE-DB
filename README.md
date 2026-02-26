@@ -51,7 +51,6 @@ erDiagram
         datetime data_fim
     }
 
-   %%tabelas de Gamificação
     ESTADO {
         int id PK
         string sigla
